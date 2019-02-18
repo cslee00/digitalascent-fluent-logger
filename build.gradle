@@ -30,7 +30,7 @@ repositories {
 }
 
 ext.versions = [
-        "flogger" : "0.3.1"
+        "flogger": "0.3.1"
 ]
 
 dependencies {
@@ -52,13 +52,13 @@ contacts {
 }
 
 wrapper {
-    gradleVersion = "4.8"
+    gradleVersion = "5.2.1"
+    distributionType = Wrapper.DistributionType.ALL
 }
 
 jar {
     manifest {
-//        name = "mylibrary"
-        attributes( "Automatic-Module-Name": "com.digitalascent.logger" )
+        attributes("Automatic-Module-Name": "com.digitalascent.logger")
     }
 }
 
