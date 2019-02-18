@@ -34,7 +34,7 @@ ext.versions = [
 ]
 
 dependencies {
-    implementation group: 'com.google.flogger', name: 'flogger', version: versions.flogger
+    api group: 'com.google.flogger', name: 'flogger', version: versions.flogger
     implementation group: 'com.google.flogger', name: 'flogger-system-backend', version: versions.flogger
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.1.0")
