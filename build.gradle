@@ -52,7 +52,14 @@ contacts {
 }
 
 wrapper {
-    gradleVersion = "4.6"
+    gradleVersion = "4.8"
+}
+
+jar {
+    manifest {
+//        name = "mylibrary"
+        attributes( "Automatic-Module-Name": "com.digitalascent.logger" )
+    }
 }
 
 bintray {
