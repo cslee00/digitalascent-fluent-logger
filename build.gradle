@@ -30,7 +30,7 @@ repositories {
 }
 
 ext.versions = [
-        "flogger": "0.3.1"
+        "flogger": "0.4"
 ]
 
 dependencies {
